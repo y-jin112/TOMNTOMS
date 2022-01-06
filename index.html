@@ -13,19 +13,45 @@
         href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script defer src="js/swiper.js"></script>
+    <script defer src="./js/common.js"></script>
 </head>
 <body>
     <header>
         <div class="head">
 
-          <a class="trigger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
+        <a class="trigger-menu" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span> 
+        </a>
+
+        <div class="aside-on">
+            <div class="aside-top">
+              <a href="#" class="close_btn"><img src="./img/ss.png" alt=""></a>
+              <div class="aside-logo"><img src="./img/nav_logo.svg" alt=""></div>
+            </div>
+            <div class="aside-bx">
+                <ul>
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./event.html">EVENT</a></li>
+                    <li><a href="">STORE</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="">COMMUNITY</a></li>
+                    <li><a href="">TOM N TOMS</a></li>
+                </ul>
+            </div>
+            <div class="global-area">
+              <ul class="global-list">
+                  <li class="global-item"><a href="">ENGLISH</a></li>
+                  <li class="global-item"><a href="">CHINESE</a></li>
+              </ul>
+            </div>
+        </div>
           
-          <div class="logo-box"><a href=""><img src="./img/logo.png" alt=""></a></div>
+          
+          <div class="logo-box"><a href="./index.html"><img src="./img/logo.png" alt=""></a></div>
           <div class="store-btn"><a href=""><img src="./img/mall.png" alt=""></a></div>
         </div>
         <div class="smile-bnr">
@@ -210,5 +236,6 @@
         <a href="#"><img src="./img/outline_expand_less_white_24dp.png" alt=""></a>
     </div>
     <a href="#" class="chatbot"><img src="./img/챗봇.png" alt=""></a>
+
 </body>
 </html>
