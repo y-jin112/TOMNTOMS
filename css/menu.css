@@ -222,6 +222,183 @@ header .store-btn img {
   width: 100%;
 }
 
+main .menu-section .menu-banner-area-drink {
+  background-image: url(../img/banner_bg_drink_m.jpg);
+  height: auto;
+  max-width: 768px;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .menu-section .menu-banner-area-drink .wrapper {
+  padding-top: 160%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+main .menu-section .menu-banner-area-drink .wrapper .txt-area {
+  margin-left: auto;
+  margin-right: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 20%;
+}
+
+main .menu-section .menu-banner-area-drink .wrapper .txt-area .title-bx {
+  color: #fff;
+  margin: 0 0 15px 30px;
+}
+
+main .menu-section .menu-banner-area-drink .wrapper .txt-area .btn-bx {
+  border: 1px solid #fff;
+  padding: 5px 20px 5px 20px;
+}
+
+main .menu-section .menu-banner-area-drink .wrapper .txt-area .btn-bx a {
+  color: #fff;
+  font-size: 14px;
+}
+
+main .menu-banner-area-food {
+  background-image: url(../img/banner_bg_food_m.jpg);
+  height: auto;
+  max-width: 768px;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .menu-banner-area-food .food-wrapper {
+  padding-top: 160%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+main .menu-banner-area-food .food-wrapper .food-txt-area {
+  margin-left: auto;
+  margin-right: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 20%;
+}
+
+main .menu-banner-area-food .food-wrapper .food-txt-area .food-title-bx {
+  color: black;
+  margin: 0 0 15px 33px;
+}
+
+main .menu-banner-area-food .food-wrapper .food-txt-area .food-btn-bx {
+  border: 1px solid #000;
+  padding: 5px 20px 5px 20px;
+}
+
+main .menu-banner-area-food .food-wrapper .food-txt-area .food-btn-bx a {
+  color: black;
+  font-size: 14px;
+}
+
+main .menu-banner-area-MD {
+  background-image: url(../img/banner_bg_md_m.jpg);
+  height: auto;
+  max-width: 768px;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .menu-banner-area-MD .MD-wrapper {
+  padding-top: 160%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+main .menu-banner-area-MD .MD-wrapper .MD-txt-area {
+  margin-left: auto;
+  margin-right: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 20%;
+}
+
+main .menu-banner-area-MD .MD-wrapper .MD-txt-area .MD-title-bx {
+  color: #fff;
+  margin: 0 0 15px 38px;
+}
+
+main .menu-banner-area-MD .MD-wrapper .MD-txt-area .MD-btn-bx {
+  border: 1px solid #fff;
+  padding: 5px 20px 5px 20px;
+}
+
+main .menu-banner-area-MD .MD-wrapper .MD-txt-area .MD-btn-bx a {
+  color: #fff;
+  font-size: 14px;
+}
+
 footer {
   padding: 4em 0 4em;
   background: #efefef;

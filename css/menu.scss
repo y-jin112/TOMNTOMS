@@ -122,7 +122,137 @@ header{
     }
 
 
+    main{
+        .menu-section{
+            .menu-banner-area-drink{
+                background-image: url(../img/banner_bg_drink_m.jpg);
+                height: auto;
+                max-width: 768px;
+                background-position: center bottom;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
 
+                .wrapper{
+                    padding-top: 160%;
+                    height: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: flex-start;
+                    position: relative;
+                    .txt-area{
+                        margin-left: auto;
+                        margin-right: 0;
+                        justify-content: flex-end;
+                        padding: 0;
+                        justify-content: center;
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        top: 20%;
+                        .title-bx{
+                            color: #fff;
+                            margin: 0 0 15px 30px;
+                        }
+                        .btn-bx{
+                            border: 1px solid #fff;
+                            padding: 5px 20px 5px 20px;
+                            a{
+                                color: #fff;
+                                font-size: 14px;
+                            }
+                            
+                        }
+                    }
+                }
+            } 
+        }
+
+        .menu-banner-area-food{
+            background-image: url(../img/banner_bg_food_m.jpg);
+            height: auto;
+            max-width: 768px;
+            background-position: center bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .food-wrapper{
+                padding-top: 160%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: flex-start;
+                position: relative;
+                .food-txt-area{
+                    margin-left: auto;
+                    margin-right: 0;
+                    justify-content: flex-end;
+                    padding: 0;
+                    justify-content: center;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 20%;
+                    .food-title-bx{
+                        color: rgb(0, 0, 0);
+                        margin: 0 0 15px 33px;  
+                    }
+                    .food-btn-bx{
+                        border: 1px solid #000;
+                        padding: 5px 20px 5px 20px;
+                        a{
+                            color: black;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .menu-banner-area-MD{
+            background-image: url(../img/banner_bg_md_m.jpg);
+            height: auto;
+            max-width: 768px;
+            background-position: center bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .MD-wrapper{
+                padding-top: 160%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: flex-start;
+                position: relative;
+                .MD-txt-area{
+                    margin-left: auto;
+                    margin-right: 0;
+                    justify-content: flex-end;
+                    padding: 0;
+                    justify-content: center;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 20%;
+                    .MD-title-bx{
+                        color: #fff;
+                        margin: 0 0 15px 38px;  
+                    }
+                    .MD-btn-bx{
+                        border: 1px solid #fff;
+                        padding: 5px 20px 5px 20px;
+                        a{
+                            color: #fff;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
 
@@ -172,8 +302,6 @@ header{
                             align-items: center;
                             justify-content: flex-start;
                         
-                            li{
-                            }
                         }
                     }
                 }
