@@ -287,6 +287,10 @@ main .bread-crumbs-wrap .wrapper .bread-crumbs-list .item {
   position: relative;
 }
 
+main .bread-crumbs-wrap .wrapper .bread-crumbs-list .item:nth-child(2) {
+  margin-right: 12px;
+}
+
 main .bread-crumbs-wrap .wrapper .bread-crumbs-list .item::after {
   content: "";
   display: block;

@@ -170,6 +170,9 @@ header{
                         padding: 0 0.75em;
                         position: relative;
                     }
+                    .item:nth-child(2){
+                        margin-right: 12px;
+                    }
                     .item::after{
                         content: "";
                         display: block;
