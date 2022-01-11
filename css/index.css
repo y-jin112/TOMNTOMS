@@ -233,6 +233,7 @@ main .swiper {
 
 main .swiper-slide {
   text-align: center;
+  font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -291,6 +292,64 @@ main .text-bx1 {
 
 main .text-bx1 p {
   color: #666;
+}
+
+main .swiper2 {
+  width: 100%;
+  height: 100%;
+}
+
+main .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .swiper-pagination-bullet {
+  display: none;
+}
+
+main .swiper-button-next::after {
+  content: "";
+  display: none;
+}
+
+main .swiper-button-next img {
+  width: 1.2857142857em;
+  height: 2.1428571429em;
+}
+
+main .swiper-button-prev img {
+  width: 1.2857142857em;
+  height: 2.1428571429em;
+}
+
+main .swiper-button-prev::after {
+  content: "";
+  display: none;
+}
+
+main .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main .main-section2 {
