@@ -260,7 +260,7 @@ main .menu-section .menu-banner-area-drink .wrapper .txt-area {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  left: 50%;
+  left: 35%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 20%;
@@ -319,7 +319,7 @@ main .menu-banner-area-food .food-wrapper .food-txt-area {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  left: 50%;
+  left: 35%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 20%;
@@ -378,7 +378,7 @@ main .menu-banner-area-MD .MD-wrapper .MD-txt-area {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  left: 50%;
+  left: 35%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 20%;
@@ -397,6 +397,33 @@ main .menu-banner-area-MD .MD-wrapper .MD-txt-area .MD-btn-bx {
 main .menu-banner-area-MD .MD-wrapper .MD-txt-area .MD-btn-bx a {
   color: #fff;
   font-size: 14px;
+}
+
+.ani {
+  opacity: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.ani.active {
+  -webkit-animation: txt 0.8s forwards cubic-bezier(0.37, 0.59, 0.47, 1.4);
+          animation: txt 0.8s forwards cubic-bezier(0.37, 0.59, 0.47, 1.4);
+}
+
+@-webkit-keyframes txt {
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes txt {
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
 }
 
 footer {

@@ -613,6 +613,21 @@ header{
         }
     }
 
+    .ani{
+        opacity:0;
+        transform: translateY(100px);
+        // margin-top:100px;
+    }
+    .ani.active{animation: txt 0.8s 0.2s forwards cubic-bezier(.37,.59,.47,1.4);}
+    
+    @keyframes txt {
+        100%{
+            opacity: 1;
+            transform: translateY(0%);
+            // margin-top:0;
+        }
+    }
+
 
 // footer
     footer{

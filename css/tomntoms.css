@@ -353,9 +353,7 @@ main .company-section .banner-area-bg {
 main .company-section .banner-area-bg .txt-bx {
   width: 100%;
   position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  left: 0%;
   top: 8%;
   text-align: center;
   padding: 0 15px;
@@ -368,7 +366,7 @@ main .company-section .banner-area-bg .txt-bx .bold {
 
 main .company-section .banner-area-bg .txt-bx .n {
   margin-top: 1em;
-  font-size: .75em;
+  font-size: .78em;
   line-height: 1.5;
 }
 
@@ -457,6 +455,73 @@ main .company-section .company-crossing-area .item .inner .txt-bx .logo-bx {
   margin-top: 1em;
 }
 
+main .company-section .brand-section {
+  padding: 2.8571428571em 0;
+  overflow: hidden;
+}
+
+main .company-section .brand-section .logo-history {
+  margin-top: 1em;
+}
+
+main .company-section .brand-section .logo-history .list {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .company-section .brand-section .logo-history .list .item {
+  padding: 0 1em;
+}
+
+main .company-section .brand-section .logo-history .list .item .img-bx {
+  text-align: center;
+  width: 100%;
+}
+
+main .company-section .brand-section .logo-history .list .item .img-bx img {
+  width: 4.8em;
+}
+
+main .company-section .brand-section .logo-history .list .item .txt-bx {
+  text-align: center;
+}
+
+main .company-section .brand-section .logo-history .list .item-arrow .img-bx {
+  text-align: center;
+  width: 100%;
+}
+
+main .company-section .brand-section .logo-history .list .item-arrow .img-bx img {
+  width: 25em;
+  height: 33px;
+}
+
+/*
+.ani{
+    opacity:0;
+    transform: translateY(100px);
+    // margin-top:100px;
+}
+.ani.active{animation: txt 0.8s 0.2s forwards cubic-bezier(.37,.59,.47,1.4);}
+
+@keyframes txt {
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+        // margin-top:0;
+    }
+}
+*/
 footer {
   padding: 4em 0 4em;
   background: #efefef;
