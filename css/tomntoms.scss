@@ -136,14 +136,11 @@ main{
             
             .txt_bx{
                 position: absolute;
-                transform: translate(60%,130%);
+                top: 9em;
+                left: 6em;
                 h2{
                     font-size: 2em;
                     display: block;
-                    margin-block-start: 0.83em;
-                    margin-block-end: 0.83em;
-                    margin-inline-start: 0px;
-                    margin-inline-end: 0px;
                     color: #fff;
                 }
             }
@@ -360,13 +357,13 @@ main{
     }
 }
 
-/*
+
 .ani{
     opacity:0;
-    transform: translateY(100px);
+    transform: translateY(100%);
     // margin-top:100px;
 }
-.ani.active{animation: txt 0.8s 0.2s forwards cubic-bezier(.37,.59,.47,1.4);}
+.ani.active{animation: txt 0.8s forwards cubic-bezier(.37,.59,.47,1.4);}
 
 @keyframes txt {
     100%{
@@ -375,7 +372,7 @@ main{
         // margin-top:0;
     }
 }
-*/
+
 
 
 

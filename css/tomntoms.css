@@ -237,21 +237,13 @@ main .visual_area .sub_visual_area {
 
 main .visual_area .sub_visual_area .txt_bx {
   position: absolute;
-  -webkit-transform: translate(60%, 130%);
-          transform: translate(60%, 130%);
+  top: 9em;
+  left: 6em;
 }
 
 main .visual_area .sub_visual_area .txt_bx h2 {
   font-size: 2em;
   display: block;
-  -webkit-margin-before: 0.83em;
-          margin-block-start: 0.83em;
-  -webkit-margin-after: 0.83em;
-          margin-block-end: 0.83em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
   color: #fff;
 }
 
@@ -506,22 +498,33 @@ main .company-section .brand-section .logo-history .list .item-arrow .img-bx img
   height: 33px;
 }
 
-/*
-.ani{
-    opacity:0;
-    transform: translateY(100px);
-    // margin-top:100px;
+.ani {
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
 }
-.ani.active{animation: txt 0.8s 0.2s forwards cubic-bezier(.37,.59,.47,1.4);}
+
+.ani.active {
+  -webkit-animation: txt 0.8s forwards cubic-bezier(0.37, 0.59, 0.47, 1.4);
+          animation: txt 0.8s forwards cubic-bezier(0.37, 0.59, 0.47, 1.4);
+}
+
+@-webkit-keyframes txt {
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
 
 @keyframes txt {
-    100%{
-        opacity: 1;
-        transform: translateY(0%);
-        // margin-top:0;
-    }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
 }
-*/
+
 footer {
   padding: 4em 0 4em;
   background: #efefef;
