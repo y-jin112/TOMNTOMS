@@ -12,14 +12,6 @@ $(window).on('scroll',function(){
     });
 })
 
-$(window).on('scroll',function(){
-    $('.ani2').each(function(i){
-        if($(window).scrollTop() > $('.ani2').eq(i).offset().top - $(window).height()){
-            $('.ani2').eq(i).addClass('active');
-        }
-    });
-})
-
   
 
 const btnBurger = document.querySelector('.trigger-menu');

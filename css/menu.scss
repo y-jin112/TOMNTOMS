@@ -127,7 +127,7 @@ header{
             .menu-banner-area-drink{
                 background-image: url(../img/banner_bg_drink_m.jpg);
                 height: auto;
-                max-width: 768px;
+                max-width: auto;
                 background-position: center bottom;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -148,9 +148,8 @@ header{
                         padding: 0;
                         justify-content: center;
                         position: absolute;
-                        left: 35%;
                         transform: translateX(-50%);
-                        top: 20%;
+                        top: 20%; left: 35%;
                         .title-bx{
                             color: #fff;
                             margin: 0 0 15px 30px;
@@ -193,7 +192,7 @@ header{
                     justify-content: center;
                     position: absolute;
                     left: 35%;
-                    transform: translateX(-50%);
+                    // transform: translateX(-50%);
                     top: 20%;
                     .food-title-bx{
                         color: rgb(0, 0, 0);

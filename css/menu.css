@@ -225,7 +225,7 @@ header .store-btn img {
 main .menu-section .menu-banner-area-drink {
   background-image: url(../img/banner_bg_drink_m.jpg);
   height: auto;
-  max-width: 768px;
+  max-width: auto;
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -260,10 +260,10 @@ main .menu-section .menu-banner-area-drink .wrapper .txt-area {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  left: 35%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 20%;
+  left: 35%;
 }
 
 main .menu-section .menu-banner-area-drink .wrapper .txt-area .title-bx {
@@ -320,8 +320,6 @@ main .menu-banner-area-food .food-wrapper .food-txt-area {
           justify-content: center;
   position: absolute;
   left: 35%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   top: 20%;
 }
 

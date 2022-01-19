@@ -136,8 +136,8 @@ main{
             
             .txt_bx{
                 position: absolute;
-                top: 9em;
-                left: 6em;
+                top: 50%;
+                left: 25%;
                 h2{
                     font-size: 2em;
                     display: block;
@@ -337,8 +337,9 @@ main{
                         .img-bx{
                             text-align: center;
                             width: 100%;
+                            left: 0;
                             img{
-                                width: 25em;
+                                width: 20em;
                                 height: 33px;
                             }
                         }

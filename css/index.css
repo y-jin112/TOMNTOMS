@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&family=Source+Sans+Pro:wght@600&display=swap");
@@ -231,7 +232,7 @@ main .swiper {
   height: 100%;
 }
 
-main .swiper-slide {
+main .swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -247,7 +248,7 @@ main .swiper-slide {
   align-items: center;
 }
 
-main .swiper-slide img {
+main .swiper .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -255,17 +256,54 @@ main .swiper-slide img {
      object-fit: cover;
 }
 
-main .vertical-notice .wrapper {
-  margin: 0 auto;
-  padding: 10px;
-  background-color: #572a31;
+main .mySwiper5 {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  overflow: hidden;
+}
+
+main .mySwiper5 .swiper-wrapper {
+  height: 3.5em;
+}
+
+main .mySwiper5 .swiper-slide {
+  text-align: center;
+  font-size: 1em;
+  background: #572a31;
+  color: #fff;
+  line-height: 1.6;
+  padding: 5% 15%;
+}
+
+main .mySwiper5 .swiper-slide a {
+  width: 90%;
+  color: #fff;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* 말줄임 적용 */
+}
+
+main .mySwiper5 .swiper-slide::before {
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 35px;
+  left: 10px;
+  top: 10px;
+  background-image: url(../img/notice_icon.png);
+  display: block;
+}
+
+main .mySwiper5 .swiper-slide::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  right: 10px;
+  top: 20px;
+  background-image: url(../img/plus_btn.png);
+  display: block;
 }
 
 main .wrapper {
@@ -299,7 +337,7 @@ main .swiper2 {
   height: 100%;
 }
 
-main .swiper-slide {
+main .swiper2 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -315,31 +353,31 @@ main .swiper-slide {
   align-items: center;
 }
 
-main .swiper-pagination-bullet {
+main .swiper2 .swiper-pagination-bullet {
   display: none;
 }
 
-main .swiper-button-next::after {
+main .swiper2 .swiper-button-next::after {
   content: "";
   display: none;
 }
 
-main .swiper-button-next img {
+main .swiper2 .swiper-button-next img {
   width: 1.2857142857em;
   height: 2.1428571429em;
 }
 
-main .swiper-button-prev img {
+main .swiper2 .swiper-button-prev img {
   width: 1.2857142857em;
   height: 2.1428571429em;
 }
 
-main .swiper-button-prev::after {
+main .swiper2 .swiper-button-prev::after {
   content: "";
   display: none;
 }
 
-main .swiper-slide img {
+main .swiper2 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -347,7 +385,7 @@ main .swiper-slide img {
      object-fit: cover;
 }
 
-main .swiper {
+main .swiper2 .swiper {
   margin-left: auto;
   margin-right: auto;
 }
@@ -754,5 +792,9 @@ footer .wrapper .add-bx a {
   max-width: 100%;
   border: 0;
   outline: none;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  display: none;
 }
 /*# sourceMappingURL=index.css.map */

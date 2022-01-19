@@ -237,8 +237,8 @@ main .visual_area .sub_visual_area {
 
 main .visual_area .sub_visual_area .txt_bx {
   position: absolute;
-  top: 9em;
-  left: 6em;
+  top: 50%;
+  left: 25%;
 }
 
 main .visual_area .sub_visual_area .txt_bx h2 {
@@ -491,10 +491,11 @@ main .company-section .brand-section .logo-history .list .item .txt-bx {
 main .company-section .brand-section .logo-history .list .item-arrow .img-bx {
   text-align: center;
   width: 100%;
+  left: 0;
 }
 
 main .company-section .brand-section .logo-history .list .item-arrow .img-bx img {
-  width: 25em;
+  width: 20em;
   height: 33px;
 }
 

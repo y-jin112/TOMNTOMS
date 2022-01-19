@@ -127,45 +127,88 @@ main{
     .swiper {
         width: 100%;
         height: 100%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .vertical-notice{
-        .wrapper{
-            margin: 0 auto;
-            padding: 10px;
-            background-color: #572a31;
-            width: 100%;
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+    
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
             justify-content: center;
-            
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
         }
-      }
+    
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    
+    //   .vertical-notice{
+    //     .wrapper{
+    //         margin: 0 auto;
+    //         padding: 10px;
+    //         background-color: #572a31;
+    //         width: 100%;
+    //         display: flex;
+    //         justify-content: center;
+            
+    //     }
+    //   }
+
+
+    .mySwiper5 {
+        width: 100%; overflow: hidden;
+        .swiper-wrapper {
+            height: 3.5em;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 1em;
+            background: #572a31;
+            color: #fff;
+            line-height: 1.6;
+            
+            padding: 5% 15%;
+            a {width: 90%; color: #fff; display: inline-block;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;  /* 말줄임 적용 */}
+            &::before{
+                content: "";
+                position: absolute;
+                width: 37px; height: 35px;
+                left: 10px; top: 10px;
+                background-image: url(../img/notice_icon.png);
+                display: block;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                width: 17px; height: 17px;
+                right: 10px; top: 20px;
+                background-image: url(../img/plus_btn.png);
+                display: block;
+            }
+        }
+    
+    }
+    
+
+
+
     .wrapper{
         margin: 80px 0 30px;
         .title-bx{
@@ -186,7 +229,7 @@ main{
     .swiper2 {
         width: 100%;
         height: 100%;
-      }
+      
      
       .swiper-slide {
         text-align: center;
@@ -207,9 +250,8 @@ main{
         -webkit-align-items: center;
         align-items: center;
       }
-         .swiper-pagination-bullet{
-        display: none;
-        
+        .swiper-pagination-bullet{
+            display: none;
         }
         .swiper-button-next::after{
             content: "";
@@ -238,6 +280,7 @@ main{
       .swiper {
         margin-left: auto;
         margin-right: auto;
+      }
     }
 
     .main-section2{
@@ -359,12 +402,15 @@ main{
     }
 }
 
+
 .ani{
     opacity:0;
     transform: translateY(100px);
     // margin-top:100px;
 }
-.ani.active{animation: txt 0.8s 0.2s forwards cubic-bezier(.37,.59,.47,1.4);}
+.ani.active{
+    animation: txt 0.8s 0.2s forwards cubic-bezier(.37,.59,.47,1.4);
+}
 
 @keyframes txt {
     100%{
@@ -558,3 +604,5 @@ footer{
         outline: none;
     }
 }
+
+.swiper-button-next:after, .swiper-button-prev:after {display: none;}
