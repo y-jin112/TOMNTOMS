@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <script type="text/javascript"> 
+        var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson'); 
+        for (var word in mobileKeyWords){ 
+        if (navigator.userAgent.match(mobileKeyWords[word]) != null){ 
+            location.href = "index.html"; 
+            // location.href = "http://127.0.0.1:5500/tomntoms/index.html";
+            break; 
+        } 
+        }
+    </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>TOM N TOMS</title>
@@ -18,45 +29,36 @@
     <script defer src="js/swiper.js"></script>
     <script defer src="./js/common.js"></script>
 </head>
+
 <body>
     <header>
         <div class="head">
+            <input type="checkbox" id="check_box" />
+            <label for="check_box">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
 
-        <a class="trigger-menu" id="toggle">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span> 
-        </a>
+            <div class="side_burger_menu" id="side_menu">
+            <ul class="menu_ul">
+                <li><a href="./menu.html">MENU</a></li>
+                <li><a href="./event.html">EVENT</a></li>
+                <li><a href="./tomntoms.html">TOM N TOMS</a></li>
+            </ul>
 
-        <div class="aside-on">
-            <div class="aside-top">
-              <a href="#" class="close_btn"><img src="./img/ss.png" alt=""></a>
-              <div class="aside-logo"><img src="./img/nav_logo.svg" alt=""></div>
-            </div>
-            <div class="aside-bx">
-                <ul>
-                    <li><a href="./menu.html">MENU</a></li>
-                    <li><a href="./event.html">EVENT</a></li>
-                    <li><a href="">STORE</a></li>
-                    <li><a href="">SERVICE</a></li>
-                    <li><a href="">COMMUNITY</a></li>
-                    <li><a href="./tomntoms.html">TOM N TOMS</a></li>
+            <div class="global-area">
+                <ul class="global-list">
+                    <li class="global-item"><a href="#">ENGLISH</a></li>
+                    <li class="global-item"><a href="#">CHINESE</a></li>
                 </ul>
             </div>
-            <div class="global-area">
-              <ul class="global-list">
-                  <li class="global-item"><a href="">ENGLISH</a></li>
-                  <li class="global-item"><a href="">CHINESE</a></li>
-              </ul>
-            </div>
         </div>
-          
-          
-          <div class="logo-box"><a href="./index.html"><img src="./img/logo.png" alt=""></a></div>
-          <div class="store-btn"><a href=""><img src="./img/mall.png" alt=""></a></div>
-        </div>
+
+            <div class="logo-box"><a href="index.html"><img src="./img/logo.png" alt=""></a></div>
+            <div class="store-btn"><a href="#"><img src="./img/mall.png" alt=""></a></div>
         <div class="smile-bnr">
-            <a href=""><img src="./img/32019960_q0TaH7i9_20211103094718.jpg" alt=""></a>
+            <a href="#"><img src="./img/32019960_q0TaH7i9_20211103094718.jpg" alt=""></a>
         </div>
     </header>
 
@@ -69,15 +71,7 @@
             </div>
             <div class="swiper-scrollbar"></div>
         </div>
-        <!-- <div class="vertical-notice">
-            <div class="wrapper">
-                <div class="vertical-notice-slide">
-                    <img src="./img/notice_icon.png" alt="">
-                    [보도자료] 프레즐 MD...2021.11.02
-                    <img src="./img/plus btn.png" alt="">
-                </div>
-            </div>
-        </div> -->
+        
         <div class="mySwiper5">
             <div class="swiper-wrapper auto">
               <div class="swiper-slide"><a>[보도자료] 탐앤탐스 딸기 음료 ‘Be My Strawberry’ 3종 출시</a></div>
@@ -97,7 +91,7 @@
         <section class="main-section">
             <div class="wrapper ani">
                 <div class="title-bx">
-                    <p><a href=""><img src="./img/TOM N TOMS MENU.png" alt=""></a></p>
+                    <p><a href="#"><img src="./img/TOM N TOMS MENU.png" alt=""></a></p>
                 </div>
             </div>
             <div class="swiper mySwiper2 ani">
@@ -147,7 +141,7 @@
         <section class="main-section3">
             <div class="wrapper3 ani">
                 <div class="title-bx3">
-                    <p><a href=""><img src="./img/TOM N TOMS MD_s PICK.png" alt=""></a></p>
+                    <p><a href="#"><img src="./img/TOM N TOMS MD_s PICK.png" alt=""></a></p>
                 </div>
             </div>
             <div class="swiper mySwiper3 ani">

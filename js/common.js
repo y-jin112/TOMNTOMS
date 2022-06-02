@@ -10,19 +10,22 @@ $(window).on('scroll',function(){
             $('.ani').eq(i).addClass('active');
         }
     });
-})
+});
 
   
 
-const btnBurger = document.querySelector('.trigger-menu');
-const elNav = document.querySelector('.aside-on');
-btnBurger.onclick = function(){
-    if( !elNav.classList.contains('active') ){
-        elNav.classList.add('active');
-    }else{
-        elNav.classList.remove('active');
-    }
-}
+// const btnBurger = document.querySelector('.trigger-menu');
+// const elNav = document.querySelector('.aside-on');
+// const btnX = document.querySelector('.btn')
+// btnBurger.onclick = function(){
+//     if( !elNav.classList.contains('active') ){
+//         elNav.classList.add('active');
+//     }else{
+//         elNav.classList.remove('active');
+//     }
+// };
+
+
 
 
 
